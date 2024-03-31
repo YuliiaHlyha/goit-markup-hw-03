@@ -8,9 +8,43 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -60,7 +94,12 @@ ul {
 }
 
 .hero {
+}
+.hero-wrap {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -70,6 +109,9 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn-main {
@@ -80,6 +122,10 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  display: block;
 }
 
 .hero-btn-main:hover,
