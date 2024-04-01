@@ -23,7 +23,7 @@
     <!-- Page header -->
 
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
             >Web<span class="header-logo-studio">Studio</span>
@@ -63,16 +63,14 @@
     <main class="main">
       <section class="hero">
         <div class="container">
-          <div class="hero-wrap">
-            <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button type="button" class="hero-btn-main">Order Service</button>
-          </div>
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn-main">Order Service</button>
         </div>
       </section>
 
       <section class="features">
         <div class="container">
-          <h2 hidden>Features</h2>
+          <h2 class="visually-hidden">Features</h2>
 
           <ul class="features-list">
             <li class="features-item">
@@ -116,24 +114,52 @@
 
           <ul class="team-list">
             <li class="team-item">
-              <img src="./images/img-3.jpg" alt="human 1" width="264" />
-              <h3 class="team-title">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <img
+                class="team-image"
+                src="./images/img-3.jpg"
+                alt="human 1"
+                width="264"
+              />
+              <div class="team-title-text">
+                <h3 class="team-title">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
-              <img src="./images/img-2.jpg" alt="human 2" width="264" />
-              <h3 class="team-title">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <img
+                class="team-image"
+                src="./images/img-2.jpg"
+                alt="human 2"
+                width="264"
+              />
+              <div class="team-title-text">
+                <h3 class="team-title">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
-              <img src="./images/img-1.jpg" alt="human 3" width="264" />
-              <h3 class="team-title">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <img
+                class="team-image"
+                src="./images/img-1.jpg"
+                alt="human 3"
+                width="264"
+              />
+              <div class="team-title-text">
+                <h3 class="team-title">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
-              <img src="./images/img.jpg" alt="human 4" width="264" />
-              <h3 class="team-title">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <img
+                class="team-image"
+                src="./images/img.jpg"
+                alt="human 4"
+                width="264"
+              />
+              <div class="team-title-text">
+                <h3 class="team-title">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -145,8 +171,10 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <img src="./images/bankingapp.jpg" alt="BankApp" width="360" />
-              <h3 class="portfolio-title">Banking App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-text-title">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -154,18 +182,24 @@
                 alt="Payment"
                 width="360"
               />
-              <h3 class="portfolio-title">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-text-title">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img src="./images/meditationapp.jpg" alt="Mediapp" width="360" />
-              <h3 class="portfolio-title">Meditation App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-text-title">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img src="./images/taxiservice.jpg" alt="Taxi" width="360" />
-              <h3 class="portfolio-title">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-text-title">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -173,13 +207,17 @@
                 alt="Screen"
                 width="360"
               />
-              <h3 class="portfolio-title">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
+              <div class="portfolio-text-title">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img src="./images/onlinecourses.jpg" alt="Woman" width="360" />
-              <h3 class="portfolio-title">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-text-title">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
